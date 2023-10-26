@@ -1,6 +1,9 @@
 .item{
     width: 350px;
 }
+.item img{
+    cursor: pointer;
+}
 .item p{
     margin: 6px 0;
 }
