@@ -34,22 +34,28 @@ function ProductDisplay(props) {
           <div className="productdisplay-new-price">${product.new_price}</div>
         </div>
         <div className="productdisplay-right-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fuga placeat consectetur, reiciendis, cumque expedita illo esse neque maiores nisi harum libero quisquam ducimus consequuntur ullam. Voluptas rem libero error. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non iste quas repellendus facere aperiam ipsa quidem mollitia. Voluptatum veritatis, dolorum ullam facere voluptates eum quae suscipit minus nostrum, nemo ad.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fuga
+          placeat consectetur, reiciendis, cumque expedita illo esse neque
+         
         </div>
         <div className="productdisplay-right-size">
-            <h1>Select Size</h1>
-            <div className="productdisplay-size">
-                <div>S</div>
-                <div>M</div>
-                <div>L</div>
-                <div>XL</div>
-                <div>XXL</div>
-            </div>
+          <h1>Select Size</h1>
+          <div className="productdisplay-size">
+            <div>S</div>
+            <div>M</div>
+            <div>L</div>
+            <div>XL</div>
+            <div>XXL</div>
+          </div>
         </div>
         <button>ADD TO CART</button>
-        <p className="productdisplay-right-category"><span>Category : {product.category} </span></p>
-        <p className="productdisplay-right-category"><span> Tags : Modern , latest </span></p>
-
+        <p className="productdisplay-right-category">
+          <span>Category : </span>
+          {product.category}
+        </p>
+        <p className="productdisplay-right-category">
+          <span> Tags :</span> Modern , latest
+        </p>
       </div>
     </div>
   );
